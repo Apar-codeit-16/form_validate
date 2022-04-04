@@ -1,0 +1,106 @@
+<html>
+    <title>Form validation</title>
+    <head><center><h2>Result generator</h2></center>
+        <link rel="stylesheet" href="style.css"></head>
+    <body bgcolor="#FFE4C4">
+        <nav>
+         <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="#">APARNA </a></div>
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">APAR</span>
+          <i class='bx bx-x' ></i>
+        </div>
+        <ul class="links">
+          <li><a href="#">HOME</a></li>
+          <li>
+            <a href="#">ABOUT US</a>
+            <i class='bx bxs-chevron-down htmlcss-arrow arrow  '></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="#">Overview </a></li>
+              <li><a href="#">Accreditation</a></li>
+              <li><a href="#">Management and administartion</a></li>
+             </ul>
+          </li>
+          <li>
+            <a href="#">ACADEMICS</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+             
+              <!--<li><a href="#">Departments</a></li>
+              <li><a href="#">Faculty</a></li>
+              <li><a href="#">Courses</a></li>
+              <li><a href="#">Achievements</a></li>-->
+
+
+               <li class="more">
+                <span><a href="#">Departments</a>
+                <i class='bx bxs-chevron-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="#">Computer Science(CSE)</a></li>
+                  <li><a href="#">Electrical and Electronics(EEE)</a></li>
+                  <li><a href="#">Electronics and Communication(ECE)</a></li>
+                  <li><a href="#">Electronics and Instrumentation(E&I)</a></li>
+                  <li><a href="#">Inormation Technology(IT)</a></li>
+                  <li><a href="#">Mechanical Engineering(ME)</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="about.html">PLACEMENTS</a></li>
+          <li><a href="cont.html">ADMISSIONS</a></li>
+        <!--- <li>
+            <a href="#">EXTRA </a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">RESUME</a></li>
+              <li><a href="#">TECH SKILLS</a></li>
+              <li><a href="#">SYMPOSIUM</a></li>
+              <li><a href="#">CULTURALS</a></li>
+            </ul>
+          </li>
+
+          <li><a href="about.html">ABOUT ME</a></li>
+          <li><a href="cont.html">CONTACT ME</a></li>
+        </ul>-->
+      </div>
+      <div class="search-box">
+        <i class='bx bx-search'></i>
+        <div class="input-box">
+          <input type="text" placeholder="Search...">
+        </div>
+      </div>
+    </div>
+  </nav>
+    <center >
+        <div class="reg_box">
+        <form name="validpro" action="./validation" method="post">
+            <table border="1" bgcolor="A9A9A9">
+                <tr>
+                    <th>Enter registration number : </th>
+                    <td><input type="text" name="validpro_sno" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter student name : </th>
+                    <td><input type="text" name="validpro_sname" value=""></td>
+                </tr>
+                <tr>
+                    <th>Enter date of birth : </th>
+                    <td><input type="date" name="validpro_smarks" value=""></td>
+                </tr>
+                <tr>
+                <table>
+                    <tr>
+                        <td><input type="submit" name="validpro_insert" value="submit"></td>
+                        <td><input type="reset" name="validpro_clear" value="Clear"></td>
+                    </tr>
+                </table>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </center>
+    </body>
+</html>
